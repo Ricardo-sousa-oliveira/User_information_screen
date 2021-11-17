@@ -1,0 +1,24 @@
+.img_box {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+.img_user {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+
+  width: 32px;
+}
+
+.information_box {
+  width: 200px;
+  height: 200px;
+  background: aqua;
+  border-radius: 10px;
+  transform: translate(300px);
+}
+.translate {
+  transform: translate(0px);
+}
