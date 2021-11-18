@@ -12,13 +12,14 @@
   width: 32px;
 }
 
-.information_box {
+.informationBox {
   width: 200px;
   height: 200px;
   background: aqua;
   border-radius: 10px;
-  transform: translate(300px);
+  transform: translate(600px);
 }
-.translate {
+.informationBox--hide {
   transform: translate(0px);
+  transform: translateY(2px);
 }
